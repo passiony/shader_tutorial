@@ -7,7 +7,7 @@
 3. PostProcessing插件
 
 ### 博客教程
-地址：https://www.jianshu.com/p/97b336cbc159
+地址：https://passion.blog.csdn.net/article/details/118355570
 
 
 ### 知识点概述
