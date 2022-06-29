@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: dissolve
+  m_Name: Dissolve
   m_Shader: {fileID: 4800000, guid: 456b76d1031d0fb428440478f63f5b3b, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -19,16 +19,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTex:
+    - _MainTexture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _TextureSample0:
-        m_Texture: {fileID: 2800000, guid: eb2c7e323d4649b49a1eac0d2649110a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _TextureSample1:
-        m_Texture: {fileID: 2800000, guid: 23d825f52164c4e4daad41e87e5e11ee, type: 3}
+    - _NoiseTexture:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -36,9 +32,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Dissolve: 0
-    - _Float0: 0.39352942
-    - __dirty: 0
+    - _Dissolve: 0.32
+    - _EdgeWidth: 0.02
     m_Colors:
-    - _Color0: {r: 1, g: 0, b: 0, a: 0}
-    - _EdgeColor: {r: 2, g: 1.8848898, b: 0, a: 0.7294118}
+    - _EdgeColor: {r: 0, g: 0, b: 0, a: 0}
