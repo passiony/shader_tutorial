@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fire
+  m_Name: Fire 1
   m_Shader: {fileID: 4800000, guid: e7aeb9c981037534a9a00e2c83054f12, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -48,7 +48,7 @@ Material:
     - _FireOuter: 0.09
     - _Float0: -1.19
     - _Float7: 0.564
-    - _GradiantValue: 0
+    - _GradiantValue: 1
     - _fire1: 0.56
     - _fire1scale: 0.63
     - _fire1speed: -1.19
@@ -59,9 +59,9 @@ Material:
     - _Color0: {r: 1, g: 0, b: 0.10866308, a: 1}
     - _Color1: {r: 1, g: 0.99501103, b: 0, a: 0}
     - _FireInner: {r: 1, g: 0.99501103, b: 0, a: 0}
-    - _FireInnerColor: {r: 0.99178326, g: 1, b: 0, a: 0}
-    - _FireOuter1: {r: 1, g: 0, b: 0.26261425, a: 0}
-    - _FireOuter2: {r: 1, g: 0.75991225, b: 0, a: 1}
+    - _FireInnerColor: {r: 0.08962262, g: 0.5056536, b: 1, a: 1}
+    - _FireOuter1: {r: 0.029283047, g: 0, b: 1, a: 0}
+    - _FireOuter2: {r: 0, g: 0.32772255, b: 1, a: 1}
     - _Gradiant1: {r: 1, g: 0.10703116, b: 0, a: 0}
     - _Gradiant2: {r: 1, g: 0.545485, b: 0, a: 1}
     - _Inner: {r: 1, g: 0.99501103, b: 0, a: 0}

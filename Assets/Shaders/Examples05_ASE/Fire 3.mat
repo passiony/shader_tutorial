@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fire
+  m_Name: Fire 3
   m_Shader: {fileID: 4800000, guid: e7aeb9c981037534a9a00e2c83054f12, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -48,7 +48,7 @@ Material:
     - _FireOuter: 0.09
     - _Float0: -1.19
     - _Float7: 0.564
-    - _GradiantValue: 0
+    - _GradiantValue: 1
     - _fire1: 0.56
     - _fire1scale: 0.63
     - _fire1speed: -1.19
