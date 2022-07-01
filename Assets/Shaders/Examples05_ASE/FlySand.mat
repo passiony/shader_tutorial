@@ -13,7 +13,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3001
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -33,4 +33,4 @@ Material:
     - _SpeedX: -0.5
     - _SpeedY: 0.5
     m_Colors:
-    - _Tint: {r: 1, g: 0.9864793, b: 0, a: 0.1019608}
+    - _Tint: {r: 1, g: 0.41553432, b: 0, a: 0.35686275}
