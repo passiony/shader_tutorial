@@ -60,7 +60,7 @@ Material:
     - _Color1: {r: 1, g: 0.99501103, b: 0, a: 0}
     - _FireInner: {r: 1, g: 0.99501103, b: 0, a: 0}
     - _FireInnerColor: {r: 1, g: 0.96470594, b: 0.27450982, a: 1}
-    - _FireOuter1: {r: 0.028412873, g: 0.1509434, b: 0, a: 0}
+    - _FireOuter1: {r: 1, g: 0, b: 0.2626143, a: 0}
     - _FireOuter2: {r: 0, g: 1, b: 0.19503093, a: 1}
     - _Gradiant1: {r: 1, g: 0.10703116, b: 0, a: 0}
     - _Gradiant2: {r: 1, g: 0.545485, b: 0, a: 1}
