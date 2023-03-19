@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DoubleSize
+  m_Shader: {fileID: 4800000, guid: ca5a3ae54965efd49ab56e32d2575d9c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AddTex:
+        m_Texture: {fileID: 2800000, guid: f14221021a0ce0f4294a0c2a48712378, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BackTex:
+        m_Texture: {fileID: 2800000, guid: 9b4269b3e7cd7de4293de532ee4a9104, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FrontTex:
+        m_Texture: {fileID: 2800000, guid: afedfdb04e349444f9e41cadb80d44d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: afedfdb04e349444f9e41cadb80d44d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 095ad711c9803a846b03edfe465c7da1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: afedfdb04e349444f9e41cadb80d44d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _NoisePower: 0.42
+    m_Colors:
+    - _AddSpeed: {r: 2, g: 2, b: 0.5, a: 0.5}
+    - _BackSPeed: {r: 3, g: 3, b: 0.2, a: 0.2}
+    - _BackSpeed: {r: 2, g: 2, b: 0.2, a: 0.2}
+    - _Color0: {r: 1, g: 0.9544128, b: 0, a: 1}
+    - _FresnelPower: {r: 0.01, g: 1, b: 5, a: 0}
+    - _FrontColor: {r: 3.9999995, g: 0, b: 3.424671, a: 1}
+    - _NoiseColor: {r: 0, g: 0.048674583, b: 1, a: 1}
+    - _NoiseSPeed: {r: 1, g: 1, b: 0.2, a: 0.2}
+    - _NoiseSpeed: {r: 1, g: 1, b: 0.2, a: 0.2}
