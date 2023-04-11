@@ -15,6 +15,7 @@ public class LoopPinpangValue : MonoBehaviour
 
     private Renderer render;
 
+    private float startTime = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,8 +25,10 @@ public class LoopPinpangValue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        var scale = Mathf.PingPong(Time.time, MaxValue) + MinValue;
-        var t = scale / Duration;
-        render.material.SetFloat(PropertyName, t);
+        startTime += Time.deltaTime;
+
+        var t = Mathf.PingPong(Time.time, Duration)/Duration;
+ 
+        render.material.SetFloat(PropertyName, Mathf.Lerp(MinValue,MaxValue,t));
     }
 }

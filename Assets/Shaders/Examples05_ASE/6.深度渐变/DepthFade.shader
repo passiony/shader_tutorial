@@ -1,6 +1,6 @@
 // Made with Amplify Shader Editor
 // Available at the Unity Asset Store - http://u3d.as/y3X 
-Shader "DepthFade"
+Shader "Custom/DepthFade"
 {
 	Properties
 	{
@@ -130,7 +130,7 @@ Shader "DepthFade"
 }
 /*ASEBEGIN
 Version=18909
-0;73;1211;926;2144.946;615.8203;1.400728;True;False
+0;73;830;926;1878.107;615.8203;1.400728;True;False
 Node;AmplifyShaderEditor.RangedFloatNode;3;-1032.871,15.42112;Inherit;False;Property;_Offset;Offset;0;0;Create;True;0;0;0;False;0;False;0;0.3;0;2;0;1;FLOAT;0
 Node;AmplifyShaderEditor.ScreenPosInputsNode;14;-1128.55,281.73;Float;False;0;False;0;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.DepthFade;10;-742.5498,9.430019;Inherit;False;True;False;True;2;1;FLOAT3;0,0,0;False;0;FLOAT;1;False;1;FLOAT;0
@@ -142,7 +142,7 @@ Node;AmplifyShaderEditor.SaturateNode;6;-346.5712,6.295333;Inherit;False;1;0;FLO
 Node;AmplifyShaderEditor.SamplerNode;13;-597.3495,253.4301;Inherit;True;Property;_MainTex;MainTex;2;0;Create;True;0;0;0;False;0;False;-1;None;5a656486bc1ce3e438384eca1850e411;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.ColorNode;7;-510.9715,80.49532;Inherit;False;Property;_Tint;Tint;1;1;[HDR];Create;True;0;0;0;False;0;False;0,0,0,0;8,0,3.858824,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;8;-210.571,6.295333;Inherit;False;3;3;0;FLOAT;0;False;1;COLOR;0,0,0,0;False;2;COLOR;0,0,0,0;False;1;COLOR;0
-Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;11;-66.70023,5.674243;Float;False;True;-1;2;ASEMaterialInspector;100;1;DepthFade;0770190933193b94aaa3065e307002fa;True;Unlit;0;0;Unlit;2;True;True;4;1;False;-1;1;False;-1;0;1;False;-1;0;False;-1;True;0;False;-1;0;False;-1;False;False;False;False;False;False;False;False;False;True;0;False;-1;True;True;2;False;-1;False;True;True;True;True;True;0;False;-1;False;False;False;False;False;False;False;True;False;255;False;-1;255;False;-1;255;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;True;True;2;False;-1;True;3;False;-1;True;True;0;False;-1;0;False;-1;True;2;RenderType=Transparent=RenderType;Queue=Transparent=Queue=0;True;2;0;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;1;LightMode=ForwardBase;False;0;;0;0;Standard;1;Vertex Position,InvertActionOnDeselection;1;0;1;True;False;;False;0
+Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;11;-66.70023,5.674243;Float;False;True;-1;2;ASEMaterialInspector;100;1;Custom/DepthFade;0770190933193b94aaa3065e307002fa;True;Unlit;0;0;Unlit;2;True;True;4;1;False;-1;1;False;-1;0;1;False;-1;0;False;-1;True;0;False;-1;0;False;-1;False;False;False;False;False;False;False;False;False;True;0;False;-1;True;True;2;False;-1;False;True;True;True;True;True;0;False;-1;False;False;False;False;False;False;False;True;False;255;False;-1;255;False;-1;255;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;True;True;2;False;-1;True;3;False;-1;True;True;0;False;-1;0;False;-1;True;2;RenderType=Transparent=RenderType;Queue=Transparent=Queue=0;True;2;0;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;1;LightMode=ForwardBase;False;0;;0;0;Standard;1;Vertex Position,InvertActionOnDeselection;1;0;1;True;False;;False;0
 WireConnection;10;0;3;0
 WireConnection;15;0;14;0
 WireConnection;12;0;10;0
@@ -155,4 +155,4 @@ WireConnection;8;1;7;0
 WireConnection;8;2;13;0
 WireConnection;11;0;8;0
 ASEEND*/
-//CHKSM=5E501B5C1224DA9114842DE433850535593B1269
+//CHKSM=9B6AED9A546671513D847D2EB518849822822B92

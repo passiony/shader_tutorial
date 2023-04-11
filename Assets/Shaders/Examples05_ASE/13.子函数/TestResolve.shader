@@ -1,6 +1,6 @@
 // Made with Amplify Shader Editor
 // Available at the Unity Asset Store - http://u3d.as/y3X 
-Shader "TestResolve"
+Shader "Custom/TestResolve"
 {
 	Properties
 	{
@@ -134,17 +134,17 @@ Shader "TestResolve"
 }
 /*ASEBEGIN
 Version=18909
-0;73;1209;926;1087.841;287.4841;1;True;False
+0;73;830;926;898.3409;287.4841;1;True;False
 Node;AmplifyShaderEditor.TexturePropertyNode;5;-662.5,-146;Inherit;True;Property;_MainTex;MainTex;0;0;Create;True;0;0;0;False;0;False;7e6a04e3183a7ad4a9b54b62fd62ad4b;7e6a04e3183a7ad4a9b54b62fd62ad4b;False;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
 Node;AmplifyShaderEditor.TexturePropertyNode;6;-658.5,39;Inherit;True;Property;_NoiseTex;NoiseTex;1;0;Create;True;0;0;0;False;0;False;280d77075c2960e43b9d3cff6d0a4a8f;280d77075c2960e43b9d3cff6d0a4a8f;False;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
 Node;AmplifyShaderEditor.RangedFloatNode;7;-705.5,228;Inherit;False;Property;_Dissolve;Dissolve;2;0;Create;True;0;0;0;False;0;False;0;0.058;0;1;0;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;8;-709.5,300;Inherit;False;Property;_Soft;Soft;3;0;Create;True;0;0;0;False;0;False;0;0.475;0;1;0;1;FLOAT;0
 Node;AmplifyShaderEditor.FunctionNode;2;-325.5,-21;Inherit;False;MyDissolveFunc;-1;;2;968c4b0f1de06bb41ba37a749150a37b;0;4;18;SAMPLER2D;0;False;19;SAMPLER2D;0;False;20;FLOAT;0;False;21;FLOAT;0;False;1;FLOAT4;0
-Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;0;-3,-20;Float;False;True;-1;2;ASEMaterialInspector;100;1;TestResolve;0770190933193b94aaa3065e307002fa;True;Unlit;0;0;Unlit;2;True;True;2;5;False;-1;10;False;-1;0;1;False;-1;0;False;-1;True;0;False;-1;0;False;-1;False;False;False;False;False;False;False;False;False;True;0;False;-1;False;True;0;False;-1;False;True;True;True;True;True;0;False;-1;False;False;False;False;False;False;False;True;False;255;False;-1;255;False;-1;255;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;False;True;1;False;-1;True;3;False;-1;True;True;0;False;-1;0;False;-1;True;2;RenderType=Transparent=RenderType;Queue=Transparent=Queue=0;True;2;0;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;1;LightMode=ForwardBase;False;0;;0;0;Standard;1;Vertex Position,InvertActionOnDeselection;1;0;1;True;False;;False;0
+Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;0;-3,-20;Float;False;True;-1;2;ASEMaterialInspector;100;1;Custom/TestResolve;0770190933193b94aaa3065e307002fa;True;Unlit;0;0;Unlit;2;True;True;2;5;False;-1;10;False;-1;0;1;False;-1;0;False;-1;True;0;False;-1;0;False;-1;False;False;False;False;False;False;False;False;False;True;0;False;-1;False;True;0;False;-1;False;True;True;True;True;True;0;False;-1;False;False;False;False;False;False;False;True;False;255;False;-1;255;False;-1;255;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;False;True;1;False;-1;True;3;False;-1;True;True;0;False;-1;0;False;-1;True;2;RenderType=Transparent=RenderType;Queue=Transparent=Queue=0;True;2;0;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;1;LightMode=ForwardBase;False;0;;0;0;Standard;1;Vertex Position,InvertActionOnDeselection;1;0;1;True;False;;False;0
 WireConnection;2;18;5;0
 WireConnection;2;19;6;0
 WireConnection;2;20;7;0
 WireConnection;2;21;8;0
 WireConnection;0;0;2;0
 ASEEND*/
-//CHKSM=48DD83F77F7EB991BEAE1968845D21491691D5A2
+//CHKSM=ACC70579AAC5DB268D026E2E9B49A09F8A0EF991

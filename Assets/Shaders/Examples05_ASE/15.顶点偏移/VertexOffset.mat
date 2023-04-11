@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VertexOffset
+  m_Shader: {fileID: 4800000, guid: 0e71652674d04eb4d90d36bdd6bf2d5f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Blur:
+        m_Texture: {fileID: 2800000, guid: 7c6f155161df7aa4491f053b65f54130, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4b2e71636b5040442a1c0368496daa18, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: b6f8a6544835f8147ab2753683907476, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Height: 0
+    m_Colors:
+    - _MainColor: {r: 3.031433, g: 3.031433, b: 3.031433, a: 1}
+    - _NoiseSpeed: {r: 0.2, g: 0.2, b: 0, a: 0}
+    - _NoiseSpeed1: {r: 0, g: 1, b: 0, a: 0}
+    - _SubColor: {r: 0.18111429, g: 0.2933918, b: 0.6981132, a: 1}

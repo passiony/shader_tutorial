@@ -43,5 +43,5 @@ Material:
     - _NoiseIntensity: 0.02
     m_Colors:
     - _Color0: {r: 1, g: 0, b: 0, a: 1}
-    - _Speed: {r: 0, g: 0.1, b: 0, a: 0}
+    - _Speed: {r: 0.08, g: 0.1, b: 0, a: 0}
     - _Vector0: {r: 0, g: 0.1, b: 0, a: 0}
